@@ -77,4 +77,3 @@ module.exports = [
   // typescriptFlatConfig,
   // prettierFlatConfig
 ];
-
