@@ -12,7 +12,8 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier . --check --loglevel=warn",
-    "format:fix": "prettier . --write"
+    "format:fix": "prettier . --write",
+    "reset": "bash ./scripts/reset.sh"
   },
   "devDependencies": {
     "eslint": "latest",
