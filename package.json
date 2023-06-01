@@ -1,20 +1,25 @@
 {
   "private": true,
+  "name": "turbo-vite",
+  "version": "0.0.0",
+  "license": "UNLICENSE",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier . --check --loglevel=warn",
+    "format:fix": "prettier . --write"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "latest",
     "eslint-config-custom": "*",
-    "prettier": "^2.5.1",
+    "prettier": "latest",
+    "prettier-config-custom": "*",
     "turbo": "latest"
   },
-  "packageManager": "npm@7.6.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "packageManager": "npm@9.6.4"
 }
