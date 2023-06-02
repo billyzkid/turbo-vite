@@ -3,11 +3,21 @@
   "name": "eslint-config",
   "version": "0.0.0",
   "main": "./index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
+    "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
+  },
   "dependencies": {
     "@eslint/js": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-prettier": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "prettier": "latest"
   }
 }

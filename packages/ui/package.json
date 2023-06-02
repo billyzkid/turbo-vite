@@ -7,15 +7,11 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier . --check --loglevel=warn",
-    "format:fix": "prettier . --write"
+    "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
+    "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config": "*",
-    "prettier": "latest",
-    "prettier-config": "*",
-    "typescript": "5.0.4",
-    "typescript-config": "*"
+    "prettier": "latest"
   }
 }

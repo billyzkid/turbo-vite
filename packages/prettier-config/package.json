@@ -2,5 +2,12 @@
   "private": true,
   "name": "prettier-config",
   "version": "0.0.0",
-  "main": "./index.json"
+  "main": "./index.json",
+  "scripts": {
+    "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
+    "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  }
 }

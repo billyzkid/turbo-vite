@@ -5,23 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier . --check --loglevel=warn",
-    "format:fix": "prettier . --write"
+    "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
+    "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
   },
   "dependencies": {
     "ui": "*"
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config": "*",
     "prettier": "latest",
-    "prettier-config": "*",
-    "typescript": "5.0.4",
-    "typescript-config": "*",
     "vite": "latest"
   }
 }
