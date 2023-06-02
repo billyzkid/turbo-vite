@@ -15,6 +15,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --check --loglevel=warn",
     "format:fix": "prettier . --write",
+    "clean": "turbo run clean",
     "reset": "bash ./scripts/reset.sh"
   },
   "devDependencies": {

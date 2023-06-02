@@ -8,10 +8,12 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
-    "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
+    "format:fix": "prettier . --write --ignore-path ../../.prettierignore",
+    "clean": "rimraf ./.turbo"
   },
   "devDependencies": {
     "eslint": "latest",
-    "prettier": "latest"
+    "prettier": "latest",
+    "rimraf": "latest"
   }
 }

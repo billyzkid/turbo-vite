@@ -5,9 +5,11 @@
   "main": "./index.json",
   "scripts": {
     "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
-    "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
+    "format:fix": "prettier . --write --ignore-path ../../.prettierignore",
+    "clean": "rimraf ./.turbo"
   },
   "devDependencies": {
-    "prettier": "latest"
+    "prettier": "latest",
+    "rimraf": "latest"
   }
 }
