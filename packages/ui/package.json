@@ -5,15 +5,17 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "format": "prettier . --check --ignore-path ../../.prettierignore --loglevel=warn",
     "format:fix": "prettier . --write --ignore-path ../../.prettierignore",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
     "clean": "rimraf ./.turbo"
   },
   "devDependencies": {
     "eslint": "latest",
     "prettier": "latest",
-    "rimraf": "latest"
+    "rimraf": "latest",
+    "typescript": "5.0.4"
   }
 }
