@@ -9,13 +9,11 @@
     "format:fix": "prettier . --write --ignore-path ../../.prettierignore",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit",
-    "clean": "rimraf ./.turbo"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "eslint": "latest",
     "prettier": "latest",
-    "rimraf": "latest",
     "typescript": "5.0.4"
   }
 }
