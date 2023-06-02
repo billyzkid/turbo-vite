@@ -16,6 +16,6 @@
     "prettier": "latest",
     "prettier-config-custom": "*",
     "tsconfig": "*",
-    "typescript": "latest"
+    "typescript": "^5.0.4"
   }
 }
