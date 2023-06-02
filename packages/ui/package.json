@@ -12,10 +12,10 @@
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config-custom": "*",
+    "eslint-config": "*",
     "prettier": "latest",
-    "prettier-config-custom": "*",
-    "tsconfig": "*",
-    "typescript": "5.0.4"
+    "prettier-config": "*",
+    "typescript": "5.0.4",
+    "typescript-config": "*"
   }
 }

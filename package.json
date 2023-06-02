@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config-custom": "*",
+    "eslint-config": "*",
     "prettier": "latest",
-    "prettier-config-custom": "*",
+    "prettier-config": "*",
     "turbo": "latest"
   },
   "packageManager": "npm@9.6.4"

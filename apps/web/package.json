@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier . --check --loglevel=warn",
     "format:fix": "prettier . --write"
   },
@@ -16,11 +17,11 @@
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config-custom": "*",
+    "eslint-config": "*",
     "prettier": "latest",
-    "prettier-config-custom": "*",
-    "tsconfig": "*",
+    "prettier-config": "*",
     "typescript": "5.0.4",
+    "typescript-config": "*",
     "vite": "latest"
   }
 }

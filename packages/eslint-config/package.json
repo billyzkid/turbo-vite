@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "eslint-config-custom",
+  "name": "eslint-config",
   "version": "0.0.0",
   "main": "./index.js",
   "dependencies": {

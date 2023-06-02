@@ -15,8 +15,7 @@ const javascriptFlatConfig = {
     }
   },
   rules: {
-    ...javascriptPlugin.configs["recommended"].rules,
-    semi: ["error", "never"]
+    ...javascriptPlugin.configs["recommended"].rules
   }
 };
 
@@ -48,8 +47,4 @@ const prettierFlatConfig = {
   }
 };
 
-module.exports = [
-  javascriptFlatConfig,
-  typescriptFlatConfig,
-  prettierFlatConfig
-];
+module.exports = [javascriptFlatConfig, typescriptFlatConfig, prettierFlatConfig];
