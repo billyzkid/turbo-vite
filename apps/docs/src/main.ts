@@ -3,7 +3,6 @@ import typescriptLogo from "./typescript.svg";
 import { Header, Counter, setupCounter } from "ui";
 
 const appElement = document.querySelector<HTMLDivElement>("#app");
-const counterElement = document.querySelector<HTMLButtonElement>("#counter");
 
 if (appElement) {
   appElement.innerHTML = `
@@ -20,6 +19,8 @@ if (appElement) {
       </div>
     </div>`;
 }
+
+const counterElement = document.querySelector<HTMLButtonElement>("#counter");
 
 if (counterElement) {
   setupCounter(counterElement);
