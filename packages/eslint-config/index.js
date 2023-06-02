@@ -47,4 +47,11 @@ const prettierFlatConfig = {
   }
 };
 
-module.exports = [javascriptFlatConfig, typescriptFlatConfig, prettierFlatConfig];
+module.exports = [
+  {
+    ignores: ["**/dist/"]
+  },
+  javascriptFlatConfig,
+  typescriptFlatConfig,
+  prettierFlatConfig
+];
