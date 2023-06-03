@@ -8,10 +8,10 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --no-daemon",
-    "build": "turbo run build --no-daemon",
-    "preview": "turbo run preview --no-daemon",
-    "clean": "turbo run clean --no-daemon",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "preview": "turbo run preview",
+    "clean": "turbo run clean",
     "format": "prettier . --check --loglevel=warn",
     "format:fix": "prettier . --write",
     "lint": "eslint .",
