@@ -1,1 +1,4 @@
+# https://eslint.org/docs/latest/use/configure/ignore#the-eslintignore-file
+# Note these are implicitly ignored: `.*`, `node_modules`, etc.
+
 **/dist/
