@@ -24,6 +24,7 @@
     "prettier": "latest",
     "rimraf": "latest",
     "typescript": "5.0.4",
+    "typescript-config": "*",
     "vite": "latest"
   }
 }
