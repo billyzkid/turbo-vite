@@ -1,1 +1,1 @@
-module.exports = require("eslint-config");
+module.exports = require("@turbo-vite/eslint-config");
