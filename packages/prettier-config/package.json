@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "eslint": "latest",
-    "prettier": "latest"
+    "eslint": "*",
+    "prettier": "*"
   }
 }

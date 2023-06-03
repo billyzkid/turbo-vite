@@ -19,12 +19,12 @@
     "ui": "*"
   },
   "devDependencies": {
-    "eslint": "latest",
-    "npm-run-all": "latest",
-    "prettier": "latest",
-    "rimraf": "latest",
-    "typescript": "5.0.4",
+    "eslint": "*",
+    "npm-run-all": "*",
+    "prettier": "*",
+    "rimraf": "*",
+    "typescript": "*",
     "typescript-config": "*",
-    "vite": "latest"
+    "vite": "*"
   }
 }

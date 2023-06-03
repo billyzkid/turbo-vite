@@ -12,9 +12,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "eslint": "latest",
-    "prettier": "latest",
-    "typescript": "5.0.4",
+    "eslint": "*",
+    "prettier": "*",
+    "typescript": "*",
     "typescript-config": "*"
   }
 }

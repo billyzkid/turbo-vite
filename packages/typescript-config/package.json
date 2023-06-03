@@ -7,6 +7,6 @@
     "format:fix": "prettier . --write --ignore-path ../../.prettierignore"
   },
   "devDependencies": {
-    "prettier": "latest"
+    "prettier": "*"
   }
 }

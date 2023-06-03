@@ -10,14 +10,14 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@eslint/js": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest",
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-prettier": "latest"
+    "@eslint/js": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*"
   },
   "devDependencies": {
-    "eslint": "latest",
-    "prettier": "latest"
+    "eslint": "*",
+    "prettier": "*"
   }
 }

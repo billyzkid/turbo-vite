@@ -19,11 +19,11 @@
     "reset": "bash ./scripts/reset.sh"
   },
   "devDependencies": {
-    "eslint": "latest",
+    "eslint": "*",
     "eslint-config": "*",
-    "prettier": "latest",
+    "prettier": "*",
     "prettier-config": "*",
-    "turbo": "latest"
+    "turbo": "*"
   },
   "packageManager": "npm@9.6.4"
 }
