@@ -1,4 +1,4 @@
 {
-  "extends": "typescript-config/vite.json",
+  "extends": "@turbo-vite/typescript-config/vite.json",
   "include": ["./src"]
 }

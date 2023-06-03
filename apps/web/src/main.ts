@@ -1,6 +1,6 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
-import { Header, Counter, setupCounter } from "ui";
+import { Header, Counter, setupCounter } from "@turbo-vite/ui";
 
 const appElement = document.querySelector<HTMLDivElement>("#app");
 
