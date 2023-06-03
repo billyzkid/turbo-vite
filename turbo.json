@@ -10,6 +10,10 @@
       "outputs": ["dist/**"]
     },
     "preview": {
+      "dependsOn": ["build"],
+      "cache": false
+    },
+    "format": {
       "cache": false
     },
     "clean": {
